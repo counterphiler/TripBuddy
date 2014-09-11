@@ -18,6 +18,7 @@
 		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
 		740F294819AC2875004407C4 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294719AC2875004407C4 /* UserAccount.m */; };
 		740F294B19AC2990004407C4 /* JournalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294A19AC2990004407C4 /* JournalViewController.m */; };
+		7415D86519C144CA001256AF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7415D86419C144CA001256AF /* index.html */; };
 		74181BD319AECD4100C0356E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC119AECD4100C0356E /* AFHTTPRequestOperation.m */; };
 		74181BD419AECD4100C0356E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC319AECD4100C0356E /* AFHTTPRequestOperationManager.m */; };
 		74181BD519AECD4100C0356E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC519AECD4100C0356E /* AFHTTPSessionManager.m */; };
@@ -74,6 +75,7 @@
 		740F294719AC2875004407C4 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
 		740F294919AC2990004407C4 /* JournalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalViewController.h; sourceTree = "<group>"; };
 		740F294A19AC2990004407C4 /* JournalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalViewController.m; sourceTree = "<group>"; };
+		7415D86419C144CA001256AF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../index.html; sourceTree = "<group>"; };
 		74181BC019AECD4100C0356E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		74181BC119AECD4100C0356E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		74181BC219AECD4100C0356E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -119,8 +121,6 @@
 		74AE664319A04347001D433D /* TripBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripBuddyTests-Info.plist"; sourceTree = "<group>"; };
 		74AE664519A04347001D433D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74AE664719A04347001D433D /* RichTextEditingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditingTests.m; sourceTree = "<group>"; };
-		74AE665119A04693001D433D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../index.html; sourceTree = "<group>"; };
-		74FD3B2619A2F2F00035093D /* Miniature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Miniature.mp4; path = ../../../Downloads/SaveVideo/Miniature.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,8 +251,7 @@
 			children = (
 				74181BBF19AECD4100C0356E /* AFNetworking */,
 				740F294519AC2714004407C4 /* VO */,
-				74FD3B2619A2F2F00035093D /* Miniature.mp4 */,
-				74AE665119A04693001D433D /* index.html */,
+				7415D86419C144CA001256AF /* index.html */,
 				74AE662B19A04347001D433D /* HelloWorldAppDelegate.h */,
 				74AE662C19A04347001D433D /* HelloWorldAppDelegate.m */,
 				74AE662E19A04347001D433D /* Main.storyboard */,
@@ -386,6 +385,7 @@
 				74AE662719A04347001D433D /* InfoPlist.strings in Resources */,
 				2C15805219C13EB9006844BF /* Main.psd in Resources */,
 				2C15805019C13EB9006844BF /* Login.jpg in Resources */,
+				7415D86519C144CA001256AF /* index.html in Resources */,
 				2C15804E19C13EB9006844BF /* Edit.psd in Resources */,
 				2C15805119C13EB9006844BF /* Login.psd in Resources */,
 			);
