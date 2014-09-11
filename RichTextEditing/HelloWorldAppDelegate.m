@@ -8,11 +8,17 @@
 
 #import "HelloWorldAppDelegate.h"
 
+NSString *const FBSessionStateChangedNotification =
+@"com.example.TokenCacheHowTo:FBSessionStateChangedNotification";
+
 @implementation HelloWorldAppDelegate
+@synthesize tokenCaching;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [FBLoginView class];
+    [FBProfilePictureView class];
     return YES;
 }
 							
@@ -36,11 +42,87 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBAppCall handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [FBSession.activeSession close];
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+    return wasHandled;
+}
+
+- (BOOL)openSessionWithAllowLoginUI:(BOOL)allowLoginUI {
+    BOOL openSessionResult = NO;
+    // Set up token strategy, if needed
+    if (nil == tokenCaching) {
+        tokenCaching = [[MyTokenCachingStrategy alloc] init];
+    }
+    // Initialize a session object with the tokenCacheStrategy
+    FBSession *session = [[FBSession alloc] initWithAppID:nil
+                                              permissions:@[@"public_profile"]
+                                          urlSchemeSuffix:nil
+                                       tokenCacheStrategy:tokenCaching];
+    // If showing the login UI, or if a cached token is available,
+    // then open the session.
+    if (allowLoginUI || session.state == FBSessionStateCreatedTokenLoaded) {
+        // For debugging purposes log if cached token was found
+        if (session.state == FBSessionStateCreatedTokenLoaded) {
+            NSLog(@"Cached token found.");
+        }
+        // Set the active session
+        [FBSession setActiveSession:session];
+        // Open the session.
+        [session openWithBehavior:FBSessionLoginBehaviorUseSystemAccountIfPresent
+                completionHandler:^(FBSession *session,
+                                    FBSessionState state,
+                                    NSError *error) {
+                    [self sessionStateChanged:session state:state error:error];
+                }];
+        // Return the result - will be set to open immediately from the session
+        // open call if a cached token was previously found.
+        openSessionResult = session.isOpen;
+    }
+    return openSessionResult;
+}
+
+- (void) closeSession {
+    [FBSession.activeSession closeAndClearTokenInformation];
+}
+
+- (void)sessionStateChanged:(FBSession *)session state:(FBSessionState) state error:(NSError *)error
+{
+    switch (state) {
+        case FBSessionStateOpen:
+            if (!error) {
+                // We have a valid session
+                NSLog(@"User session found");
+            }
+            break;
+        case FBSessionStateClosed:
+        case FBSessionStateClosedLoginFailed:
+            [FBSession.activeSession closeAndClearTokenInformation];
+            break;
+        default:
+            break;
+    }
+    
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:FBSessionStateChangedNotification
+     object:session];
+    
+    if (error) {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Error"
+                                  message:error.localizedDescription
+                                  delegate:nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+        [alertView show];
+    }
+}
 @end

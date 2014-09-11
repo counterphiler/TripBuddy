@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelloWorldViewController : UIViewController
+@interface HelloWorldViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIWebViewDelegate>
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) NSTimer *timer;
+@property (nonatomic, strong) NSString *imagePath;
 
 @end

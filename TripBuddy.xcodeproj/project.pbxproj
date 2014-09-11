@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F293C19AC21BE004407C4 /* HomePageViewController.m */; };
+		740F294119AC2268004407C4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294019AC2268004407C4 /* SignUpViewController.m */; };
+		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
+		740F294819AC2875004407C4 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294719AC2875004407C4 /* UserAccount.m */; };
+		740F294B19AC2990004407C4 /* JournalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294A19AC2990004407C4 /* JournalViewController.m */; };
+		74181BD319AECD4100C0356E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC119AECD4100C0356E /* AFHTTPRequestOperation.m */; };
+		74181BD419AECD4100C0356E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC319AECD4100C0356E /* AFHTTPRequestOperationManager.m */; };
+		74181BD519AECD4100C0356E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC519AECD4100C0356E /* AFHTTPSessionManager.m */; };
+		74181BD619AECD4100C0356E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BC819AECD4100C0356E /* AFNetworkReachabilityManager.m */; };
+		74181BD719AECD4100C0356E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BCA19AECD4100C0356E /* AFSecurityPolicy.m */; };
+		74181BD819AECD4100C0356E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BCC19AECD4100C0356E /* AFURLConnectionOperation.m */; };
+		74181BD919AECD4100C0356E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BCE19AECD4100C0356E /* AFURLRequestSerialization.m */; };
+		74181BDA19AECD4100C0356E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BD019AECD4100C0356E /* AFURLResponseSerialization.m */; };
+		74181BDB19AECD4100C0356E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BD219AECD4100C0356E /* AFURLSessionManager.m */; };
+		743E299419BBA22500249A05 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299319BBA22400249A05 /* CoreData.framework */; };
+		743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299519BBA30900249A05 /* AdSupport.framework */; };
+		743E299819BBA31300249A05 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299719BBA31300249A05 /* Accounts.framework */; };
+		743E299A19BBA31D00249A05 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299919BBA31D00249A05 /* Social.framework */; };
+		743E299E19BBA45D00249A05 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299D19BBA45D00249A05 /* FacebookSDK.framework */; };
+		743E29A119BBAC2A00249A05 /* MyTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E29A019BBAC2A00249A05 /* MyTokenCachingStrategy.m */; };
+		74AE661D19A04347001D433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661C19A04347001D433D /* Foundation.framework */; };
+		74AE661F19A04347001D433D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661E19A04347001D433D /* CoreGraphics.framework */; };
+		74AE662119A04347001D433D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE662019A04347001D433D /* UIKit.framework */; };
+		74AE662719A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE662519A04347001D433D /* InfoPlist.strings */; };
+		74AE662919A04347001D433D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE662819A04347001D433D /* main.m */; };
+		74AE662D19A04347001D433D /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE662C19A04347001D433D /* HelloWorldAppDelegate.m */; };
+		74AE663019A04347001D433D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE662E19A04347001D433D /* Main.storyboard */; };
+		74AE663319A04347001D433D /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE663219A04347001D433D /* HelloWorldViewController.m */; };
+		74AE663519A04347001D433D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE663419A04347001D433D /* Images.xcassets */; };
+		74AE663C19A04347001D433D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE663B19A04347001D433D /* XCTest.framework */; };
+		74AE663D19A04347001D433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661C19A04347001D433D /* Foundation.framework */; };
+		74AE663E19A04347001D433D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE662019A04347001D433D /* UIKit.framework */; };
+		74AE664619A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE664419A04347001D433D /* InfoPlist.strings */; };
+		74AE664819A04347001D433D /* RichTextEditingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE664719A04347001D433D /* RichTextEditingTests.m */; };
+		74AE665219A04693001D433D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 74AE665119A04693001D433D /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74AE663F19A04347001D433D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AE661119A04347001D433D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AE661819A04347001D433D;
+			remoteInfo = RichTextEditing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740F293B19AC21BE004407C4 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		740F293C19AC21BE004407C4 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		740F293F19AC2268004407C4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		740F294019AC2268004407C4 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		740F294219AC22F9004407C4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		740F294319AC22F9004407C4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		740F294619AC2875004407C4 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		740F294719AC2875004407C4 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		740F294919AC2990004407C4 /* JournalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalViewController.h; sourceTree = "<group>"; };
+		740F294A19AC2990004407C4 /* JournalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalViewController.m; sourceTree = "<group>"; };
+		74181BC019AECD4100C0356E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		74181BC119AECD4100C0356E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		74181BC219AECD4100C0356E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		74181BC319AECD4100C0356E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		74181BC419AECD4100C0356E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		74181BC519AECD4100C0356E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		74181BC619AECD4100C0356E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		74181BC719AECD4100C0356E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		74181BC819AECD4100C0356E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		74181BC919AECD4100C0356E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		74181BCA19AECD4100C0356E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		74181BCB19AECD4100C0356E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		74181BCC19AECD4100C0356E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		74181BCD19AECD4100C0356E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		74181BCE19AECD4100C0356E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		74181BCF19AECD4100C0356E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		74181BD019AECD4100C0356E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		74181BD119AECD4100C0356E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		74181BD219AECD4100C0356E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		743E299319BBA22400249A05 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		743E299519BBA30900249A05 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		743E299719BBA31300249A05 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		743E299919BBA31D00249A05 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		743E299B19BBA3CE00249A05 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		743E299D19BBA45D00249A05 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		743E299F19BBAC2A00249A05 /* MyTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTokenCachingStrategy.h; sourceTree = "<group>"; };
+		743E29A019BBAC2A00249A05 /* MyTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTokenCachingStrategy.m; sourceTree = "<group>"; };
+		74AE661919A04347001D433D /* TripBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AE661C19A04347001D433D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74AE661E19A04347001D433D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74AE662019A04347001D433D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74AE662419A04347001D433D /* TripBuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripBuddy-Info.plist"; sourceTree = "<group>"; };
+		74AE662619A04347001D433D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74AE662819A04347001D433D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74AE662A19A04347001D433D /* TripBuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TripBuddy-Prefix.pch"; sourceTree = "<group>"; };
+		74AE662B19A04347001D433D /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		74AE662C19A04347001D433D /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		74AE662F19A04347001D433D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AE663119A04347001D433D /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		74AE663219A04347001D433D /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		74AE663419A04347001D433D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74AE663A19A04347001D433D /* TripBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AE663B19A04347001D433D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74AE664319A04347001D433D /* TripBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripBuddyTests-Info.plist"; sourceTree = "<group>"; };
+		74AE664519A04347001D433D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74AE664719A04347001D433D /* RichTextEditingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditingTests.m; sourceTree = "<group>"; };
+		74AE665119A04693001D433D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../index.html; sourceTree = "<group>"; };
+		74FD3B2619A2F2F00035093D /* Miniature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Miniature.mp4; path = ../../../Downloads/SaveVideo/Miniature.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AE661619A04347001D433D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743E299A19BBA31D00249A05 /* Social.framework in Frameworks */,
+				743E299819BBA31300249A05 /* Accounts.framework in Frameworks */,
+				743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */,
+				743E299419BBA22500249A05 /* CoreData.framework in Frameworks */,
+				74AE661F19A04347001D433D /* CoreGraphics.framework in Frameworks */,
+				743E299E19BBA45D00249A05 /* FacebookSDK.framework in Frameworks */,
+				74AE662119A04347001D433D /* UIKit.framework in Frameworks */,
+				74AE661D19A04347001D433D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AE663719A04347001D433D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE663C19A04347001D433D /* XCTest.framework in Frameworks */,
+				74AE663E19A04347001D433D /* UIKit.framework in Frameworks */,
+				74AE663D19A04347001D433D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740F294519AC2714004407C4 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				740F294619AC2875004407C4 /* UserAccount.h */,
+				740F294719AC2875004407C4 /* UserAccount.m */,
+				743E299F19BBAC2A00249A05 /* MyTokenCachingStrategy.h */,
+				743E29A019BBAC2A00249A05 /* MyTokenCachingStrategy.m */,
+			);
+			name = VO;
+			sourceTree = "<group>";
+		};
+		74181BBF19AECD4100C0356E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				74181BC019AECD4100C0356E /* AFHTTPRequestOperation.h */,
+				74181BC119AECD4100C0356E /* AFHTTPRequestOperation.m */,
+				74181BC219AECD4100C0356E /* AFHTTPRequestOperationManager.h */,
+				74181BC319AECD4100C0356E /* AFHTTPRequestOperationManager.m */,
+				74181BC419AECD4100C0356E /* AFHTTPSessionManager.h */,
+				74181BC519AECD4100C0356E /* AFHTTPSessionManager.m */,
+				74181BC619AECD4100C0356E /* AFNetworking.h */,
+				74181BC719AECD4100C0356E /* AFNetworkReachabilityManager.h */,
+				74181BC819AECD4100C0356E /* AFNetworkReachabilityManager.m */,
+				74181BC919AECD4100C0356E /* AFSecurityPolicy.h */,
+				74181BCA19AECD4100C0356E /* AFSecurityPolicy.m */,
+				74181BCB19AECD4100C0356E /* AFURLConnectionOperation.h */,
+				74181BCC19AECD4100C0356E /* AFURLConnectionOperation.m */,
+				74181BCD19AECD4100C0356E /* AFURLRequestSerialization.h */,
+				74181BCE19AECD4100C0356E /* AFURLRequestSerialization.m */,
+				74181BCF19AECD4100C0356E /* AFURLResponseSerialization.h */,
+				74181BD019AECD4100C0356E /* AFURLResponseSerialization.m */,
+				74181BD119AECD4100C0356E /* AFURLSessionManager.h */,
+				74181BD219AECD4100C0356E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		74AE661019A04347001D433D = {
+			isa = PBXGroup;
+			children = (
+				74AE662219A04347001D433D /* TripBuddy */,
+				74AE664119A04347001D433D /* TripBuddyTests */,
+				74AE661B19A04347001D433D /* Frameworks */,
+				74AE661A19A04347001D433D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74AE661A19A04347001D433D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AE661919A04347001D433D /* TripBuddy.app */,
+				74AE663A19A04347001D433D /* TripBuddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AE661B19A04347001D433D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				743E299D19BBA45D00249A05 /* FacebookSDK.framework */,
+				743E299B19BBA3CE00249A05 /* iAd.framework */,
+				743E299919BBA31D00249A05 /* Social.framework */,
+				743E299719BBA31300249A05 /* Accounts.framework */,
+				743E299519BBA30900249A05 /* AdSupport.framework */,
+				743E299319BBA22400249A05 /* CoreData.framework */,
+				74AE661C19A04347001D433D /* Foundation.framework */,
+				74AE661E19A04347001D433D /* CoreGraphics.framework */,
+				74AE662019A04347001D433D /* UIKit.framework */,
+				74AE663B19A04347001D433D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74AE662219A04347001D433D /* TripBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				74181BBF19AECD4100C0356E /* AFNetworking */,
+				740F294519AC2714004407C4 /* VO */,
+				74FD3B2619A2F2F00035093D /* Miniature.mp4 */,
+				74AE665119A04693001D433D /* index.html */,
+				74AE662B19A04347001D433D /* HelloWorldAppDelegate.h */,
+				74AE662C19A04347001D433D /* HelloWorldAppDelegate.m */,
+				74AE662E19A04347001D433D /* Main.storyboard */,
+				74AE663119A04347001D433D /* HelloWorldViewController.h */,
+				74AE663219A04347001D433D /* HelloWorldViewController.m */,
+				74AE663419A04347001D433D /* Images.xcassets */,
+				74AE662319A04347001D433D /* Supporting Files */,
+				740F293B19AC21BE004407C4 /* HomePageViewController.h */,
+				740F293C19AC21BE004407C4 /* HomePageViewController.m */,
+				740F293F19AC2268004407C4 /* SignUpViewController.h */,
+				740F294019AC2268004407C4 /* SignUpViewController.m */,
+				740F294219AC22F9004407C4 /* LoginViewController.h */,
+				740F294319AC22F9004407C4 /* LoginViewController.m */,
+				740F294919AC2990004407C4 /* JournalViewController.h */,
+				740F294A19AC2990004407C4 /* JournalViewController.m */,
+			);
+			name = TripBuddy;
+			path = RichTextEditing;
+			sourceTree = "<group>";
+		};
+		74AE662319A04347001D433D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AE662419A04347001D433D /* TripBuddy-Info.plist */,
+				74AE662519A04347001D433D /* InfoPlist.strings */,
+				74AE662819A04347001D433D /* main.m */,
+				74AE662A19A04347001D433D /* TripBuddy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74AE664119A04347001D433D /* TripBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AE664719A04347001D433D /* RichTextEditingTests.m */,
+				74AE664219A04347001D433D /* Supporting Files */,
+			);
+			name = TripBuddyTests;
+			path = RichTextEditingTests;
+			sourceTree = "<group>";
+		};
+		74AE664219A04347001D433D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AE664319A04347001D433D /* TripBuddyTests-Info.plist */,
+				74AE664419A04347001D433D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AE661819A04347001D433D /* TripBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AE664B19A04347001D433D /* Build configuration list for PBXNativeTarget "TripBuddy" */;
+			buildPhases = (
+				74AE661519A04347001D433D /* Sources */,
+				74AE661619A04347001D433D /* Frameworks */,
+				74AE661719A04347001D433D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripBuddy;
+			productName = RichTextEditing;
+			productReference = 74AE661919A04347001D433D /* TripBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74AE663919A04347001D433D /* TripBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AE664E19A04347001D433D /* Build configuration list for PBXNativeTarget "TripBuddyTests" */;
+			buildPhases = (
+				74AE663619A04347001D433D /* Sources */,
+				74AE663719A04347001D433D /* Frameworks */,
+				74AE663819A04347001D433D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AE664019A04347001D433D /* PBXTargetDependency */,
+			);
+			name = TripBuddyTests;
+			productName = RichTextEditingTests;
+			productReference = 74AE663A19A04347001D433D /* TripBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AE661119A04347001D433D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					74AE663919A04347001D433D = {
+						TestTargetID = 74AE661819A04347001D433D;
+					};
+				};
+			};
+			buildConfigurationList = 74AE661419A04347001D433D /* Build configuration list for PBXProject "TripBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 74AE661019A04347001D433D;
+			productRefGroup = 74AE661A19A04347001D433D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AE661819A04347001D433D /* TripBuddy */,
+				74AE663919A04347001D433D /* TripBuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AE661719A04347001D433D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE663519A04347001D433D /* Images.xcassets in Resources */,
+				74AE665219A04693001D433D /* index.html in Resources */,
+				74AE662719A04347001D433D /* InfoPlist.strings in Resources */,
+				74AE663019A04347001D433D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AE663819A04347001D433D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE664619A04347001D433D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AE661519A04347001D433D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743E29A119BBAC2A00249A05 /* MyTokenCachingStrategy.m in Sources */,
+				74181BDB19AECD4100C0356E /* AFURLSessionManager.m in Sources */,
+				74181BD819AECD4100C0356E /* AFURLConnectionOperation.m in Sources */,
+				74181BD319AECD4100C0356E /* AFHTTPRequestOperation.m in Sources */,
+				740F294819AC2875004407C4 /* UserAccount.m in Sources */,
+				74181BD419AECD4100C0356E /* AFHTTPRequestOperationManager.m in Sources */,
+				740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */,
+				740F294119AC2268004407C4 /* SignUpViewController.m in Sources */,
+				74181BD519AECD4100C0356E /* AFHTTPSessionManager.m in Sources */,
+				740F294419AC22F9004407C4 /* LoginViewController.m in Sources */,
+				740F294B19AC2990004407C4 /* JournalViewController.m in Sources */,
+				74AE662D19A04347001D433D /* HelloWorldAppDelegate.m in Sources */,
+				74181BD719AECD4100C0356E /* AFSecurityPolicy.m in Sources */,
+				74AE663319A04347001D433D /* HelloWorldViewController.m in Sources */,
+				74181BD919AECD4100C0356E /* AFURLRequestSerialization.m in Sources */,
+				74181BD619AECD4100C0356E /* AFNetworkReachabilityManager.m in Sources */,
+				74181BDA19AECD4100C0356E /* AFURLResponseSerialization.m in Sources */,
+				74AE662919A04347001D433D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AE663619A04347001D433D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE664819A04347001D433D /* RichTextEditingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74AE664019A04347001D433D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AE661819A04347001D433D /* TripBuddy */;
+			targetProxy = 74AE663F19A04347001D433D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74AE662519A04347001D433D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AE662619A04347001D433D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74AE662E19A04347001D433D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AE662F19A04347001D433D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74AE664419A04347001D433D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AE664519A04347001D433D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AE664919A04347001D433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74AE664A19A04347001D433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AE664C19A04347001D433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
+					/Users/bowenzhang/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditing/TripBuddy-Prefix.pch";
+				INFOPLIST_FILE = "RichTextEditing/TripBuddy-Info.plist";
+				PRODUCT_NAME = TripBuddy;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74AE664D19A04347001D433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
+					/Users/bowenzhang/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditing/TripBuddy-Prefix.pch";
+				INFOPLIST_FILE = "RichTextEditing/TripBuddy-Info.plist";
+				PRODUCT_NAME = TripBuddy;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74AE664F19A04347001D433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RichTextEditing.app/RichTextEditing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditing/RichTextEditing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RichTextEditingTests/TripBuddyTests-Info.plist";
+				PRODUCT_NAME = TripBuddyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74AE665019A04347001D433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RichTextEditing.app/RichTextEditing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditing/RichTextEditing-Prefix.pch";
+				INFOPLIST_FILE = "RichTextEditingTests/TripBuddyTests-Info.plist";
+				PRODUCT_NAME = TripBuddyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AE661419A04347001D433D /* Build configuration list for PBXProject "TripBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AE664919A04347001D433D /* Debug */,
+				74AE664A19A04347001D433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AE664B19A04347001D433D /* Build configuration list for PBXNativeTarget "TripBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AE664C19A04347001D433D /* Debug */,
+				74AE664D19A04347001D433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AE664E19A04347001D433D /* Build configuration list for PBXNativeTarget "TripBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AE664F19A04347001D433D /* Debug */,
+				74AE665019A04347001D433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AE661119A04347001D433D /* Project object */;
+}

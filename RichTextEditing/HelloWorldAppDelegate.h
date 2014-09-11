@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "MyTokenCachingStrategy.h"
 
 @interface HelloWorldAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) MyTokenCachingStrategy *tokenCaching;
 
+-(BOOL)openSessionWithAllowLoginUI:(BOOL) allowLoginUI;
+-(void) closeSession;
 @end
