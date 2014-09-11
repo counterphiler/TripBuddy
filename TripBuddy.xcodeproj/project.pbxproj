@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C15804E19C13EB9006844BF /* Edit.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804919C13EB9006844BF /* Edit.psd */; };
+		2C15804F19C13EB9006844BF /* List.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804A19C13EB9006844BF /* List.psd */; };
+		2C15805019C13EB9006844BF /* Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804B19C13EB9006844BF /* Login.jpg */; };
+		2C15805119C13EB9006844BF /* Login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804C19C13EB9006844BF /* Login.psd */; };
+		2C15805219C13EB9006844BF /* Main.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804D19C13EB9006844BF /* Main.psd */; };
 		740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F293C19AC21BE004407C4 /* HomePageViewController.m */; };
 		740F294119AC2268004407C4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294019AC2268004407C4 /* SignUpViewController.m */; };
 		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
@@ -33,7 +38,6 @@
 		74AE662719A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE662519A04347001D433D /* InfoPlist.strings */; };
 		74AE662919A04347001D433D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE662819A04347001D433D /* main.m */; };
 		74AE662D19A04347001D433D /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE662C19A04347001D433D /* HelloWorldAppDelegate.m */; };
-		74AE663019A04347001D433D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE662E19A04347001D433D /* Main.storyboard */; };
 		74AE663319A04347001D433D /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE663219A04347001D433D /* HelloWorldViewController.m */; };
 		74AE663519A04347001D433D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE663419A04347001D433D /* Images.xcassets */; };
 		74AE663C19A04347001D433D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE663B19A04347001D433D /* XCTest.framework */; };
@@ -41,7 +45,6 @@
 		74AE663E19A04347001D433D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE662019A04347001D433D /* UIKit.framework */; };
 		74AE664619A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE664419A04347001D433D /* InfoPlist.strings */; };
 		74AE664819A04347001D433D /* RichTextEditingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE664719A04347001D433D /* RichTextEditingTests.m */; };
-		74AE665219A04693001D433D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 74AE665119A04693001D433D /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C15804919C13EB9006844BF /* Edit.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Edit.psd; sourceTree = "<group>"; };
+		2C15804A19C13EB9006844BF /* List.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = List.psd; sourceTree = "<group>"; };
+		2C15804B19C13EB9006844BF /* Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Login.jpg; sourceTree = "<group>"; };
+		2C15804C19C13EB9006844BF /* Login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Login.psd; sourceTree = "<group>"; };
+		2C15804D19C13EB9006844BF /* Main.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Main.psd; sourceTree = "<group>"; };
 		740F293B19AC21BE004407C4 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		740F293C19AC21BE004407C4 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		740F293F19AC2268004407C4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -144,6 +152,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C15804719C13EB9006844BF /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				2C15804819C13EB9006844BF /* supporting_files */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		2C15804819C13EB9006844BF /* supporting_files */ = {
+			isa = PBXGroup;
+			children = (
+				2C15804919C13EB9006844BF /* Edit.psd */,
+				2C15804A19C13EB9006844BF /* List.psd */,
+				2C15804B19C13EB9006844BF /* Login.jpg */,
+				2C15804C19C13EB9006844BF /* Login.psd */,
+				2C15804D19C13EB9006844BF /* Main.psd */,
+			);
+			path = supporting_files;
+			sourceTree = "<group>";
+		};
 		740F294519AC2714004407C4 /* VO */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +212,7 @@
 		74AE661019A04347001D433D = {
 			isa = PBXGroup;
 			children = (
+				2C15804719C13EB9006844BF /* Documents */,
 				74AE662219A04347001D433D /* TripBuddy */,
 				74AE664119A04347001D433D /* TripBuddyTests */,
 				74AE661B19A04347001D433D /* Frameworks */,
@@ -353,9 +382,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AE663519A04347001D433D /* Images.xcassets in Resources */,
-				74AE665219A04693001D433D /* index.html in Resources */,
+				2C15804F19C13EB9006844BF /* List.psd in Resources */,
 				74AE662719A04347001D433D /* InfoPlist.strings in Resources */,
-				74AE663019A04347001D433D /* Main.storyboard in Resources */,
+				2C15805219C13EB9006844BF /* Main.psd in Resources */,
+				2C15805019C13EB9006844BF /* Login.jpg in Resources */,
+				2C15804E19C13EB9006844BF /* Edit.psd in Resources */,
+				2C15805119C13EB9006844BF /* Login.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +553,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDK",
 					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
-					/Users/bowenzhang/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RichTextEditing/TripBuddy-Prefix.pch";
@@ -541,7 +572,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDK",
 					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
-					/Users/bowenzhang/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RichTextEditing/TripBuddy-Prefix.pch";
