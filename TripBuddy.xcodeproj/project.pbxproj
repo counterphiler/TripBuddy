@@ -12,6 +12,7 @@
 		2C15805019C13EB9006844BF /* Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804B19C13EB9006844BF /* Login.jpg */; };
 		2C15805119C13EB9006844BF /* Login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804C19C13EB9006844BF /* Login.psd */; };
 		2C15805219C13EB9006844BF /* Main.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C15804D19C13EB9006844BF /* Main.psd */; };
+		2C15805419C13F2E006844BF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C15805319C13F2E006844BF /* FacebookSDK.framework */; };
 		740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F293C19AC21BE004407C4 /* HomePageViewController.m */; };
 		740F294119AC2268004407C4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294019AC2268004407C4 /* SignUpViewController.m */; };
 		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
@@ -30,7 +31,6 @@
 		743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299519BBA30900249A05 /* AdSupport.framework */; };
 		743E299819BBA31300249A05 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299719BBA31300249A05 /* Accounts.framework */; };
 		743E299A19BBA31D00249A05 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299919BBA31D00249A05 /* Social.framework */; };
-		743E299E19BBA45D00249A05 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299D19BBA45D00249A05 /* FacebookSDK.framework */; };
 		743E29A119BBAC2A00249A05 /* MyTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E29A019BBAC2A00249A05 /* MyTokenCachingStrategy.m */; };
 		74AE661D19A04347001D433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661C19A04347001D433D /* Foundation.framework */; };
 		74AE661F19A04347001D433D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661E19A04347001D433D /* CoreGraphics.framework */; };
@@ -63,6 +63,7 @@
 		2C15804B19C13EB9006844BF /* Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Login.jpg; sourceTree = "<group>"; };
 		2C15804C19C13EB9006844BF /* Login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Login.psd; sourceTree = "<group>"; };
 		2C15804D19C13EB9006844BF /* Main.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Main.psd; sourceTree = "<group>"; };
+		2C15805319C13F2E006844BF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		740F293B19AC21BE004407C4 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		740F293C19AC21BE004407C4 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		740F293F19AC2268004407C4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		743E299719BBA31300249A05 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		743E299919BBA31D00249A05 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		743E299B19BBA3CE00249A05 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		743E299D19BBA45D00249A05 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		743E299F19BBAC2A00249A05 /* MyTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTokenCachingStrategy.h; sourceTree = "<group>"; };
 		743E29A019BBAC2A00249A05 /* MyTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTokenCachingStrategy.m; sourceTree = "<group>"; };
 		74AE661919A04347001D433D /* TripBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,12 +128,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C15805419C13F2E006844BF /* FacebookSDK.framework in Frameworks */,
 				743E299A19BBA31D00249A05 /* Social.framework in Frameworks */,
 				743E299819BBA31300249A05 /* Accounts.framework in Frameworks */,
 				743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */,
 				743E299419BBA22500249A05 /* CoreData.framework in Frameworks */,
 				74AE661F19A04347001D433D /* CoreGraphics.framework in Frameworks */,
-				743E299E19BBA45D00249A05 /* FacebookSDK.framework in Frameworks */,
 				74AE662119A04347001D433D /* UIKit.framework in Frameworks */,
 				74AE661D19A04347001D433D /* Foundation.framework in Frameworks */,
 			);
@@ -232,7 +232,7 @@
 		74AE661B19A04347001D433D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				743E299D19BBA45D00249A05 /* FacebookSDK.framework */,
+				2C15805319C13F2E006844BF /* FacebookSDK.framework */,
 				743E299B19BBA3CE00249A05 /* iAd.framework */,
 				743E299919BBA31D00249A05 /* Social.framework */,
 				743E299719BBA31300249A05 /* Accounts.framework */,
