@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C96950919C5537C0041A94D /* Edit.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950119C5537C0041A94D /* Edit.psd */; };
+		2C96950A19C5537C0041A94D /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950219C5537C0041A94D /* fb.png */; };
+		2C96950B19C5537C0041A94D /* gplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950319C5537C0041A94D /* gplus.png */; };
+		2C96950C19C5537C0041A94D /* List.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950419C5537C0041A94D /* List.psd */; };
+		2C96950D19C5537C0041A94D /* Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950519C5537C0041A94D /* Login.jpg */; };
+		2C96950E19C5537C0041A94D /* Login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950619C5537C0041A94D /* Login.psd */; };
+		2C96950F19C5537C0041A94D /* Login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950719C5537C0041A94D /* Login_bg.png */; };
+		2C96951019C5537C0041A94D /* Main.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950819C5537C0041A94D /* Main.psd */; };
 		740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F293C19AC21BE004407C4 /* HomePageViewController.m */; };
 		740F294119AC2268004407C4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294019AC2268004407C4 /* SignUpViewController.m */; };
 		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
@@ -55,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C96950119C5537C0041A94D /* Edit.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Edit.psd; sourceTree = "<group>"; };
+		2C96950219C5537C0041A94D /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		2C96950319C5537C0041A94D /* gplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gplus.png; sourceTree = "<group>"; };
+		2C96950419C5537C0041A94D /* List.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = List.psd; sourceTree = "<group>"; };
+		2C96950519C5537C0041A94D /* Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Login.jpg; sourceTree = "<group>"; };
+		2C96950619C5537C0041A94D /* Login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Login.psd; sourceTree = "<group>"; };
+		2C96950719C5537C0041A94D /* Login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login_bg.png; sourceTree = "<group>"; };
+		2C96950819C5537C0041A94D /* Main.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Main.psd; sourceTree = "<group>"; };
 		740F293B19AC21BE004407C4 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		740F293C19AC21BE004407C4 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		740F293F19AC2268004407C4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -143,6 +159,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C96950019C5537C0041A94D /* supporting_files */ = {
+			isa = PBXGroup;
+			children = (
+				2C96950119C5537C0041A94D /* Edit.psd */,
+				2C96950219C5537C0041A94D /* fb.png */,
+				2C96950319C5537C0041A94D /* gplus.png */,
+				2C96950419C5537C0041A94D /* List.psd */,
+				2C96950519C5537C0041A94D /* Login.jpg */,
+				2C96950619C5537C0041A94D /* Login.psd */,
+				2C96950719C5537C0041A94D /* Login_bg.png */,
+				2C96950819C5537C0041A94D /* Main.psd */,
+			);
+			name = supporting_files;
+			path = Document/supporting_files;
+			sourceTree = SOURCE_ROOT;
+		};
 		740F294519AC2714004407C4 /* VO */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +251,7 @@
 		74AE662219A04347001D433D /* TripBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				2C96950019C5537C0041A94D /* supporting_files */,
 				741C96A119C54D2100919CA6 /* index.html */,
 				74181BBF19AECD4100C0356E /* AFNetworking */,
 				740F294519AC2714004407C4 /* VO */,
@@ -350,10 +383,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C96950B19C5537C0041A94D /* gplus.png in Resources */,
+				2C96950C19C5537C0041A94D /* List.psd in Resources */,
+				2C96951019C5537C0041A94D /* Main.psd in Resources */,
+				2C96950D19C5537C0041A94D /* Login.jpg in Resources */,
 				74AE663519A04347001D433D /* Images.xcassets in Resources */,
+				2C96950F19C5537C0041A94D /* Login_bg.png in Resources */,
+				2C96950919C5537C0041A94D /* Edit.psd in Resources */,
 				741C96A219C54D2100919CA6 /* index.html in Resources */,
 				74AE662719A04347001D433D /* InfoPlist.strings in Resources */,
 				74AE663019A04347001D433D /* Main.storyboard in Resources */,
+				2C96950A19C5537C0041A94D /* fb.png in Resources */,
+				2C96950E19C5537C0041A94D /* Login.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
