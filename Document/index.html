@@ -1,0 +1,53 @@
+<html>
+        <body>
+            <style type="text/css">
+                img {max-width:100%;}
+                </style>
+            <script language="javascript" type="text/javascript">
+                this.prepareInsertImage = function(){
+                    try{
+                        backuprange();
+                    }
+                    catch(exc){
+                        log('prepareInsertImage: ' + exc);
+                    }
+                }
+            
+            this.insertImage = function(imgPath){
+                try{
+                    restorerange();
+                    //    var imgwrap = document.createElement('video');
+                    //    var img = document.createElement('source');
+                    //    img.setAttribute('src', 'Miniature.mp4');
+                    //    img.setAttribute('type', 'vidoe/mp4');
+                    //    imgwrap.appendChild(img);
+                    //    window.getSelection().getRangeAt(0).insertNode(imgwrap);
+                    //    Shiveeeeee
+                    var imgwrap = document.createElement('p');
+                    var img = document.createElement('img');
+                    img.setAttribute('src', imgPath);
+                    //    img.setAttribute('type', 'vidoe/mp4');
+                    imgwrap.appendChild(img);
+                    window.getSelection().getRangeAt(0).insertNode(imgwrap);
+//                    document.execCommand("InsertImage",true,imgPath);
+                }
+                catch(exc){
+                    log('insertImage: ' + exc);
+                }
+            }
+            var focusRange;
+            function backuprange(){
+                var selection = window.getSelection();
+                focusRange = selection.getRangeAt(0);
+                focusRange.setEnd(focusRange.startContainer, focusRange.startOffset);
+            }
+            function restorerange(){
+                var selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(focusRange);
+            }
+            </script>
+
+        <div id="content" contenteditable="true" style="font-family: Helvetica">This is out Rich Text Editing View</div>
+    </body>
+</html>

@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F4C5718A-0108-4191-ABA3-DC56D2196E3A</string>
+	<string>4DC39658-49BD-431A-899A-78C768126A26</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TripBuddy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9AF4F117-E252-4F88-BB13-48AE4A490406</key>
+		<key>F210F710-2C2A-40ED-B781-5BA80C5389CA</key>
 		<string>https://github.com/counterphiler/TripBuddy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TripBuddy.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9AF4F117-E252-4F88-BB13-48AE4A490406</key>
+		<key>F210F710-2C2A-40ED-B781-5BA80C5389CA</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9AF4F117-E252-4F88-BB13-48AE4A490406</string>
+	<string>F210F710-2C2A-40ED-B781-5BA80C5389CA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9AF4F117-E252-4F88-BB13-48AE4A490406</string>
+			<string>F210F710-2C2A-40ED-B781-5BA80C5389CA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TripBuddy</string>
 		</dict>
