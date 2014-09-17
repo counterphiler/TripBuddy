@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "HelloWorldViewController.h"
 
 @interface LoginViewController ()
 
@@ -38,6 +39,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)jumpToEditorPage:(id)sender {
+//    HelloWorldViewController *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"EditorPage"];
+//    [self.navigationController pushViewController:viewController animated:YES];
+    [self performSegueWithIdentifier:@"EditorPage" sender:self];
+}
 /*
 #pragma mark - Navigation
 
