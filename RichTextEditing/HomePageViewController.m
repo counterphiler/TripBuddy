@@ -35,7 +35,7 @@
     [super viewDidLoad];
     FBLoginView *loginView = [[FBLoginView alloc] init];
     loginView.delegate = self;
-    loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), 150);
+    loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), 250);
     [self.view addSubview:loginView];
     // Do any additional setup after loading the view.
 }
