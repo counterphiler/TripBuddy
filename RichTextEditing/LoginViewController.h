@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
+#import <Security/Security.h>
 
 @interface LoginViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *emailTF;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTF;
 
 @end

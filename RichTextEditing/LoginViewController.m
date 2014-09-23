@@ -8,12 +8,17 @@
 
 #import "LoginViewController.h"
 #import "HelloWorldViewController.h"
+#import "KeychainItemWrapper.h"
+#import <Security/Security.h>
+#import "AFHTTPRequestOperationManager.h"
 
 @interface LoginViewController ()
 
 @end
 
+
 @implementation LoginViewController
+@synthesize emailTF,passwordTF;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,8 +47,45 @@
 - (IBAction)jumpToEditorPage:(id)sender {
 //    HelloWorldViewController *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"EditorPage"];
 //    [self.navigationController pushViewController:viewController animated:YES];
-    [self performSegueWithIdentifier:@"EditorPage" sender:self];
+    NSString *email = emailTF.text;
+    NSString *password = passwordTF.text;
+
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"http://103.241.50.122:3000/api/user/signin.json" parameters:@{
+                                                                                 @"email": email,
+                                                                                 @"password": password}       success:^(AFHTTPRequestOperation *operation, id responseObject) {//处理返Object
+                                                                                     NSDate *date = [NSDate date];
+                                                                                     NSTimeZone* currentTimeZone = [NSTimeZone localTimeZone];
+                                                                                     
+                                                                                     NSTimeInterval gmtInterval = [currentTimeZone secondsFromGMTForDate:date];
+                                                                                     
+                                                                                     NSDate* destinationDate = [[NSDate alloc] initWithTimeInterval:-gmtInterval sinceDate:date];
+                                                                                     NSDateFormatter *dateFormatter = [NSDateFormatter new];
+                                                                                     dateFormatter.dateFormat = @"yyyy-MM-dd'T'HH:mm";
+                                                                                     NSString *expireTime = [dateFormatter stringFromDate:destinationDate];
+                                                                                     KeychainItemWrapper *keychain = [[KeychainItemWrapper alloc] initWithIdentifier:@"keyChainTest" accessGroup:nil];
+                                                                                     [keychain setObject:emailTF.text forKey:(__bridge id)(kSecAttrAccount)];
+                                                                                     [keychain setObject:passwordTF.text forKey:(__bridge id)(kSecValueData)];
+                                                                                     [keychain setObject:expireTime forKey:(__bridge id)kSecAttrService];
+                                                                                 [self performSegueWithIdentifier:@"EditorPage" sender:self];} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                                                         NSLog(@"Error: %@", error);  }];
+    
+    
+//    NSString *username = [keychain objectForKey:(__bridge id)kSecAttrAccount];
+//    NSLog(@"User = %@",username);
+    
 }
+
+//- (NSDate*) convertToGMT:(NSDate*)sourceDate
+//{
+//    NSTimeZone* currentTimeZone = [NSTimeZone localTimeZone];
+//    
+//    NSTimeInterval gmtInterval = [currentTimeZone secondsFromGMTForDate:sourceDate];
+//    
+//    NSDate* destinationDate = [[NSDate alloc] initWithTimeInterval:gmtInterval sinceDate:sourceDate];
+//    return destinationDate;
+//}
+
 /*
 #pragma mark - Navigation
 

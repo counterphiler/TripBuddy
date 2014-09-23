@@ -30,6 +30,8 @@
 		74181BDA19AECD4100C0356E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BD019AECD4100C0356E /* AFURLResponseSerialization.m */; };
 		74181BDB19AECD4100C0356E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74181BD219AECD4100C0356E /* AFURLSessionManager.m */; };
 		741C96A219C54D2100919CA6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 741C96A119C54D2100919CA6 /* index.html */; };
+		7434847D19D0E7B00058528B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434847C19D0E7B00058528B /* Security.framework */; };
+		7434848019D0E8620058528B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434847F19D0E8620058528B /* KeychainItemWrapper.m */; };
 		743E299419BBA22500249A05 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299319BBA22400249A05 /* CoreData.framework */; };
 		743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299519BBA30900249A05 /* AdSupport.framework */; };
 		743E299819BBA31300249A05 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743E299719BBA31300249A05 /* Accounts.framework */; };
@@ -101,6 +103,9 @@
 		74181BD119AECD4100C0356E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		74181BD219AECD4100C0356E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		741C96A119C54D2100919CA6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Document/index.html; sourceTree = SOURCE_ROOT; };
+		7434847C19D0E7B00058528B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7434847E19D0E8620058528B /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		7434847F19D0E8620058528B /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		743E299319BBA22400249A05 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		743E299519BBA30900249A05 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		743E299719BBA31300249A05 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -135,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434847D19D0E7B00058528B /* Security.framework in Frameworks */,
 				743E299A19BBA31D00249A05 /* Social.framework in Frameworks */,
 				743E299819BBA31300249A05 /* Accounts.framework in Frameworks */,
 				743E299619BBA30900249A05 /* AdSupport.framework in Frameworks */,
@@ -234,6 +240,7 @@
 		74AE661B19A04347001D433D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7434847C19D0E7B00058528B /* Security.framework */,
 				743E299D19BBA45D00249A05 /* FacebookSDK.framework */,
 				743E299B19BBA3CE00249A05 /* iAd.framework */,
 				743E299919BBA31D00249A05 /* Social.framework */,
@@ -251,6 +258,8 @@
 		74AE662219A04347001D433D /* TripBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				7434847E19D0E8620058528B /* KeychainItemWrapper.h */,
+				7434847F19D0E8620058528B /* KeychainItemWrapper.m */,
 				2C96950019C5537C0041A94D /* supporting_files */,
 				741C96A119C54D2100919CA6 /* index.html */,
 				74181BBF19AECD4100C0356E /* AFNetworking */,
@@ -418,6 +427,7 @@
 				74181BD819AECD4100C0356E /* AFURLConnectionOperation.m in Sources */,
 				74181BD319AECD4100C0356E /* AFHTTPRequestOperation.m in Sources */,
 				740F294819AC2875004407C4 /* UserAccount.m in Sources */,
+				7434848019D0E8620058528B /* KeychainItemWrapper.m in Sources */,
 				74181BD419AECD4100C0356E /* AFHTTPRequestOperationManager.m in Sources */,
 				740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */,
 				740F294119AC2268004407C4 /* SignUpViewController.m in Sources */,

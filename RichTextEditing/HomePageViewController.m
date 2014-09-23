@@ -8,7 +8,9 @@
 
 #import "HomePageViewController.h"
 #import "HelloWorldAppDelegate.h"
-
+#import "KeychainItemWrapper.h"
+#import <Security/Security.h>
+#import "AFHTTPRequestOperationManager.h"
 @interface HomePageViewController ()
 
 @end
@@ -38,6 +40,22 @@
     loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), 150);
     [self.view addSubview:loginView];
     // Do any additional setup after loading the view.
+    
+    KeychainItemWrapper* keychain = [[KeychainItemWrapper alloc] initWithIdentifier:@"keyChainTest" accessGroup:nil];
+    NSString *email = [keychain objectForKey:(__bridge id)kSecAttrAccount];
+    NSString *password = [keychain objectForKey:(__bridge id)kSecValueData];
+    NSString *expireDate = [keychain objectForKey:(__bridge id)kSecAttrService];
+    NSLog(@"User name = %@",email);
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"http://103.241.50.122:3000/api/user/signin.json" parameters:@{
+                                                                                 @"email": email,
+                                                                                 @"password": password}       success:^(AFHTTPRequestOperation *operation, id responseObject) {//处理返Object
+                                                                                    
+                                                                            
+                                                                                     [self performSegueWithIdentifier:@"jumpToEditor" sender:self];} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                                                         NSLog(@"Error: %@", error);  }];
+    
 }
 
 - (void) loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user {
