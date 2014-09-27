@@ -45,7 +45,6 @@
 		74AE663019A04347001D433D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE662E19A04347001D433D /* Main.storyboard */; };
 		74AE663319A04347001D433D /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE663219A04347001D433D /* HelloWorldViewController.m */; };
 		74AE663519A04347001D433D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE663419A04347001D433D /* Images.xcassets */; };
-		74AE663C19A04347001D433D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE663B19A04347001D433D /* XCTest.framework */; };
 		74AE663D19A04347001D433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661C19A04347001D433D /* Foundation.framework */; };
 		74AE663E19A04347001D433D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE662019A04347001D433D /* UIKit.framework */; };
 		74AE664619A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE664419A04347001D433D /* InfoPlist.strings */; };
@@ -127,7 +126,6 @@
 		74AE663219A04347001D433D /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		74AE663419A04347001D433D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74AE663A19A04347001D433D /* TripBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74AE663B19A04347001D433D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		74AE664319A04347001D433D /* TripBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripBuddyTests-Info.plist"; sourceTree = "<group>"; };
 		74AE664519A04347001D433D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74AE664719A04347001D433D /* RichTextEditingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditingTests.m; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE663C19A04347001D433D /* XCTest.framework in Frameworks */,
 				74AE663E19A04347001D433D /* UIKit.framework in Frameworks */,
 				74AE663D19A04347001D433D /* Foundation.framework in Frameworks */,
 			);
@@ -250,7 +247,6 @@
 				74AE661C19A04347001D433D /* Foundation.framework */,
 				74AE661E19A04347001D433D /* CoreGraphics.framework */,
 				74AE662019A04347001D433D /* UIKit.framework */,
-				74AE663B19A04347001D433D /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
