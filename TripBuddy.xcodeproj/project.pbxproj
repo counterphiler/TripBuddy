@@ -15,6 +15,9 @@
 		2C96950E19C5537C0041A94D /* Login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950619C5537C0041A94D /* Login.psd */; };
 		2C96950F19C5537C0041A94D /* Login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950719C5537C0041A94D /* Login_bg.png */; };
 		2C96951019C5537C0041A94D /* Main.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C96950819C5537C0041A94D /* Main.psd */; };
+		7403B21719D8BFB900BCBF63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7403B21419D8BFB900BCBF63 /* InfoPlist.strings */; };
+		7403B21819D8BFB900BCBF63 /* RichTextEditingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7403B21519D8BFB900BCBF63 /* RichTextEditingTests.m */; };
+		7403B21919D8BFB900BCBF63 /* TripBuddyTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7403B21619D8BFB900BCBF63 /* TripBuddyTests-Info.plist */; };
 		740F293D19AC21BE004407C4 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F293C19AC21BE004407C4 /* HomePageViewController.m */; };
 		740F294119AC2268004407C4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294019AC2268004407C4 /* SignUpViewController.m */; };
 		740F294419AC22F9004407C4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F294319AC22F9004407C4 /* LoginViewController.m */; };
@@ -47,8 +50,6 @@
 		74AE663519A04347001D433D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE663419A04347001D433D /* Images.xcassets */; };
 		74AE663D19A04347001D433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE661C19A04347001D433D /* Foundation.framework */; };
 		74AE663E19A04347001D433D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AE662019A04347001D433D /* UIKit.framework */; };
-		74AE664619A04347001D433D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74AE664419A04347001D433D /* InfoPlist.strings */; };
-		74AE664819A04347001D433D /* RichTextEditingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE664719A04347001D433D /* RichTextEditingTests.m */; };
 		74F244D519D0FC28005C4A9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F244D419D0FC28005C4A9A /* Security.framework */; };
 		74F244D719D0FDB3005C4A9A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F244D619D0FDB3005C4A9A /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,9 @@
 		2C96950619C5537C0041A94D /* Login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Login.psd; sourceTree = "<group>"; };
 		2C96950719C5537C0041A94D /* Login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login_bg.png; sourceTree = "<group>"; };
 		2C96950819C5537C0041A94D /* Main.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Main.psd; sourceTree = "<group>"; };
+		7403B21419D8BFB900BCBF63 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7403B21519D8BFB900BCBF63 /* RichTextEditingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditingTests.m; sourceTree = "<group>"; };
+		7403B21619D8BFB900BCBF63 /* TripBuddyTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TripBuddyTests-Info.plist"; sourceTree = "<group>"; };
 		740F293B19AC21BE004407C4 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		740F293C19AC21BE004407C4 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		740F293F19AC2268004407C4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -126,9 +130,6 @@
 		74AE663219A04347001D433D /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		74AE663419A04347001D433D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74AE663A19A04347001D433D /* TripBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74AE664319A04347001D433D /* TripBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripBuddyTests-Info.plist"; sourceTree = "<group>"; };
-		74AE664519A04347001D433D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		74AE664719A04347001D433D /* RichTextEditingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditingTests.m; sourceTree = "<group>"; };
 		74F244D419D0FC28005C4A9A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		74F244D619D0FDB3005C4A9A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +179,16 @@
 			path = Document/supporting_files;
 			sourceTree = SOURCE_ROOT;
 		};
+		7403B21319D8BFB900BCBF63 /* RichTextEditingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7403B21419D8BFB900BCBF63 /* InfoPlist.strings */,
+				7403B21519D8BFB900BCBF63 /* RichTextEditingTests.m */,
+				7403B21619D8BFB900BCBF63 /* TripBuddyTests-Info.plist */,
+			);
+			path = RichTextEditingTests;
+			sourceTree = SOURCE_ROOT;
+		};
 		740F294519AC2714004407C4 /* VO */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,8 +229,8 @@
 		74AE661019A04347001D433D = {
 			isa = PBXGroup;
 			children = (
+				7403B21319D8BFB900BCBF63 /* RichTextEditingTests */,
 				74AE662219A04347001D433D /* TripBuddy */,
-				74AE664119A04347001D433D /* TripBuddyTests */,
 				74AE661B19A04347001D433D /* Frameworks */,
 				74AE661A19A04347001D433D /* Products */,
 			);
@@ -287,25 +298,6 @@
 				74AE662519A04347001D433D /* InfoPlist.strings */,
 				74AE662819A04347001D433D /* main.m */,
 				74AE662A19A04347001D433D /* TripBuddy-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		74AE664119A04347001D433D /* TripBuddyTests */ = {
-			isa = PBXGroup;
-			children = (
-				74AE664719A04347001D433D /* RichTextEditingTests.m */,
-				74AE664219A04347001D433D /* Supporting Files */,
-			);
-			name = TripBuddyTests;
-			path = RichTextEditingTests;
-			sourceTree = "<group>";
-		};
-		74AE664219A04347001D433D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				74AE664319A04347001D433D /* TripBuddyTests-Info.plist */,
-				74AE664419A04347001D433D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -391,6 +383,7 @@
 				2C96950B19C5537C0041A94D /* gplus.png in Resources */,
 				2C96950C19C5537C0041A94D /* List.psd in Resources */,
 				2C96951019C5537C0041A94D /* Main.psd in Resources */,
+				7403B21719D8BFB900BCBF63 /* InfoPlist.strings in Resources */,
 				2C96950D19C5537C0041A94D /* Login.jpg in Resources */,
 				74AE663519A04347001D433D /* Images.xcassets in Resources */,
 				2C96950F19C5537C0041A94D /* Login_bg.png in Resources */,
@@ -399,6 +392,7 @@
 				74AE662719A04347001D433D /* InfoPlist.strings in Resources */,
 				74AE663019A04347001D433D /* Main.storyboard in Resources */,
 				2C96950A19C5537C0041A94D /* fb.png in Resources */,
+				7403B21919D8BFB900BCBF63 /* TripBuddyTests-Info.plist in Resources */,
 				2C96950E19C5537C0041A94D /* Login.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,7 +401,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE664619A04347001D433D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +426,7 @@
 				74AE662D19A04347001D433D /* HelloWorldAppDelegate.m in Sources */,
 				74181BD719AECD4100C0356E /* AFSecurityPolicy.m in Sources */,
 				74AE663319A04347001D433D /* HelloWorldViewController.m in Sources */,
+				7403B21819D8BFB900BCBF63 /* RichTextEditingTests.m in Sources */,
 				74181BD919AECD4100C0356E /* AFURLRequestSerialization.m in Sources */,
 				74181BD619AECD4100C0356E /* AFNetworkReachabilityManager.m in Sources */,
 				74181BDA19AECD4100C0356E /* AFURLResponseSerialization.m in Sources */,
@@ -444,7 +438,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE664819A04347001D433D /* RichTextEditingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,14 +466,6 @@
 				74AE662F19A04347001D433D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		74AE664419A04347001D433D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74AE664519A04347001D433D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
