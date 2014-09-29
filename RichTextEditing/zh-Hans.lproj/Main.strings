@@ -1,0 +1,33 @@
+
+/* Class = "IBUILabel"; text = "Sign Up"; ObjectID = "2Wg-PI-Rh9"; */
+"2Wg-PI-Rh9.text" = "Sign Up";
+
+/* Class = "IBUIButton"; normalTitle = "SignItUp"; ObjectID = "2Zf-U2-9H9"; */
+"2Zf-U2-9H9.normalTitle" = "SignItUp";
+
+/* Class = "IBUILabel"; text = "Password:"; ObjectID = "4d8-SJ-ccB"; */
+"4d8-SJ-ccB.text" = "Password:";
+
+/* Class = "IBUIButton"; normalTitle = "Sign In"; ObjectID = "AnS-h7-66z"; */
+"AnS-h7-66z.normalTitle" = "Sign In";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "JbX-ZM-PVu"; */
+"JbX-ZM-PVu.normalTitle" = "Login";
+
+/* Class = "IBUILabel"; text = "usezzrname:"; ObjectID = "R0x-a3-dyz"; */
+"R0x-a3-dyz.text" = "usezzrname:";
+
+/* Class = "IBUILabel"; text = "email:"; ObjectID = "bJW-Ky-Z9C"; */
+"bJW-Ky-Z9C.text" = "email:";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "o14-if-pd5"; */
+"o14-if-pd5.text" = "Password";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "pET-NU-IMC"; */
+"pET-NU-IMC.normalTitle" = "Sign Up";
+
+/* Class = "IBUIButton"; normalTitle = "Log In"; ObjectID = "uHC-Zc-x3q"; */
+"uHC-Zc-x3q.normalTitle" = "Log In";
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "yCW-eR-i6h"; */
+"yCW-eR-i6h.text" = "Email";

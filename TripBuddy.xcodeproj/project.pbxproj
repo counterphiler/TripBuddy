@@ -62,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C22850419D904C400E3017E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C22850519D904C400E3017E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		2C96950119C5537C0041A94D /* Edit.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Edit.psd; sourceTree = "<group>"; };
 		2C96950219C5537C0041A94D /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 		2C96950319C5537C0041A94D /* gplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gplus.png; sourceTree = "<group>"; };
@@ -345,7 +347,7 @@
 			knownRegions = (
 				en,
 				Base,
-				he,
+				"zh-Hans",
 			);
 			mainGroup = 74AE661019A04347001D433D;
 			productRefGroup = 74AE661A19A04347001D433D /* Products */;
@@ -436,6 +438,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				74AE662619A04347001D433D /* en */,
+				2C22850519D904C400E3017E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				74AE662F19A04347001D433D /* Base */,
+				2C22850419D904C400E3017E /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -578,7 +582,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RichTextEditingTests/TripBuddyTests-Info.plist";
+				INFOPLIST_FILE = "RichTextEditing/TripBuddy-Info.plist";
 				PRODUCT_NAME = TripBuddyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -596,7 +600,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RichTextEditing/RichTextEditing-Prefix.pch";
-				INFOPLIST_FILE = "RichTextEditingTests/TripBuddyTests-Info.plist";
+				INFOPLIST_FILE = "RichTextEditing/TripBuddy-Info.plist";
 				PRODUCT_NAME = TripBuddyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
